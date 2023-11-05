@@ -5,16 +5,16 @@
       "PackagePath": "staticwebassets\\sg_website.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\293360784_522589562890011_7046704457844459852_n.jpg",
-      "PackagePath": "staticwebassets\\293360784_522589562890011_7046704457844459852_n.jpg"
-    },
-    {
       "Id": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\images\\sgheader.jpg",
+      "PackagePath": "staticwebassets\\images\\sgheader.jpg"
     },
     {
       "Id": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\js\\site.js",

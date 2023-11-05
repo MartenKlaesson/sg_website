@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cy95+LHUSJTI49zpBrAvUx7lnrXKg+xkzCOQHZBlJK0=",
+  "Hash": "+UZR/o6h0JNgTaqOn6/+Clwe/Ar0mNmM9Zb8SpJaRRM=",
   "Source": "sg_website",
   "BasePath": "_content/sg_website",
   "Mode": "Default",
@@ -51,23 +51,6 @@
       "OriginalItemSpec": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\sg_website.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\293360784_522589562890011_7046704457844459852_n.jpg",
-      "SourceId": "sg_website",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\",
-      "BasePath": "_content/sg_website",
-      "RelativePath": "293360784_522589562890011_7046704457844459852_n.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\293360784_522589562890011_7046704457844459852_n.jpg"
-    },
-    {
       "Identity": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\css\\site.css",
       "SourceId": "sg_website",
       "SourceType": "Discovered",
@@ -100,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\images\\sgheader.jpg",
+      "SourceId": "sg_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\",
+      "BasePath": "_content/sg_website",
+      "RelativePath": "images/sgheader.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sgheader.jpg"
     },
     {
       "Identity": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\js\\site.js",
