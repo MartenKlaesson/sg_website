@@ -1,18 +1,26 @@
+/* Base styles */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
+
+/* Header styles */
+.header-background {
+    padding: 100px 0;
+    background: url('/images/sgheader.jpg') no-repeat center center;
+    background-size: cover;
+    color: white; /* Or appropriate text color for your image */
+}
+
+/* (Other sections would follow, such as Footer Styles, Navigation Styles, Main Content Styles, etc.) */

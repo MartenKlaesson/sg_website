@@ -2,7 +2,165 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selma & Gustaf - Home</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <style>
+        .header-background {
+            padding: 0;
+            background: url('/images/sgheader.jpg') no-repeat center center;
+            background-size: cover;
+            height: 500px; /* Adjust height as needed */
+            position: relative;
+        }
+
+        .social-links {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 2;
+        }
+
+            .social-links a {
+                color: white; /* Icons color */
+                margin-left: 15px;
+                font-size: 24px; /* Adjust size as needed */
+            }
+
+        /* Update section padding as necessary, and add different background colors */
+        section {
+            padding: 190px 0;
+        }
+
+        /* Background colors for sections */
+        #tour {
+            background-color: #e3f2fd;
+        }
+
+        #music {
+            background-color: #ffebee;
+        }
+
+        #bio {
+            background-color: #e8f5e9;
+        }
+
+        #contact {
+            background-color: #fff3e0;
+        }
+
+        #signup {
+            background-color: #e1bee7;
+        }
+
+        #store {
+            background-color: #ede7f6;
+        }
+
+        /* Navigation links color */
+        .navbar .navbar-nav .nav-link {
+            color: black; /* Set color to black for the section links */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section with Background Image -->
+    <!-- Header Section with Background Image -->
+    <header class="header-background">
+        <!-- Social Media Links with Icons -->
+        <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:email@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tour">TOUR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">MUSIC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bio">BIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#signup">SIGN UP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#store">STORE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Tour Section -->
+    <section id="tour">
+        <div class="container">
+            <h2>TOUR DATES</h2>
+            <p>This section contains information about upcoming tour dates and locations for Selma & Gustaf.</p>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music">
+        <div class="container">
+            <h2>MUSIC</h2>
+            <p>Discover Selma & Gustaf's latest albums and listen to a selection of tracks.</p>
+        </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section id="bio">
+        <div class="container">
+            <h2>BIOGRAPHY</h2>
+            <p>Learn more about Selma & Gustaf's journey in music, influences, and personal stories.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>CONTACT</h2>
+            <p>Get in touch with Selma & Gustaf for bookings, press inquiries, or just to say hi!</p>
+        </div>
+    </section>
+
+    <!-- Sign Up Section -->
+    <section id="signup">
+        <div class="container">
+            <h2>SIGN UP</h2>
+            <p>Join our newsletter to get the latest updates, exclusive content, and special offers.</p>
+        </div>
+    </section>
+
+    <!-- Store Section -->
+    <section id="store">
+        <div class="container">
+            <h2>STORE</h2>
+            <p>Check out our official store for merchandise, music, and more.</p>
+        </div>
+    </section>
+
+</body>
+</html>
