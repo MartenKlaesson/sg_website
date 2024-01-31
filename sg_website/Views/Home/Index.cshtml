@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <style>
+        body {
+            background-color: #131313; /* Dark background for body */
+            color: #ccc; /* Light grey text for general readability */
+        }
+
         .header-background {
             padding: 0;
             background: url('/images/sgheader.jpg') no-repeat center center;
@@ -27,46 +32,50 @@
         }
 
             .social-links a {
-                color: white; /* Icons color */
+                color: #8a2be2; /* Neon-like color for social icons */
                 margin-left: 15px;
                 font-size: 24px; /* Adjust size as needed */
             }
 
-        /* Update section padding as necessary, and add different background colors */
-        section {
-            padding: 190px 0;
+        /* Navigation links color */
+        .navbar {
+            background-color: #212529; /* Dark background for navbar */
         }
+
+            .navbar .navbar-nav .nav-link {
+                color: #9bbed8; /* Mystical blue for navigation links */
+            }
 
         /* Background colors for sections */
-        #tour {
-            background-color: #e3f2fd;
+        #tour, #signup {
+            background-color: #1c1c1e; /* Dark color for sections */
+            color: #d5d5d5; /* Light text color for readability */
         }
 
-        #music {
-            background-color: #ffebee;
+        #music, #contact {
+            background-color: #28282a; /* Slightly lighter dark shade */
+            color: #d5d5d5;
         }
 
-        #bio {
-            background-color: #e8f5e9;
+        #bio, #store {
+            background-color: #323234; /* Even lighter dark shade */
+            color: #d5d5d5;
         }
 
-        #contact {
-            background-color: #fff3e0;
+        h2 {
+            color: #e6e6e6; /* Light text color for headings */
         }
 
-        #signup {
-            background-color: #e1bee7;
+        /* Adjust padding and margins as necessary */
+        section {
+            padding: 100px 0;
         }
 
-        #store {
-            background-color: #ede7f6;
-        }
-
-        /* Navigation links color */
-        .navbar .navbar-nav .nav-link {
-            color: black; /* Set color to black for the section links */
+        .container {
+            background-color: transparent; /* Ensure the container doesn't have a different background color */
         }
     </style>
+
 </head>
 <body>
 
@@ -125,8 +134,17 @@
     <!-- Music Section -->
     <section id="music">
         <div class="container">
-            <h2>MUSIC</h2>
-            <p>Discover Selma & Gustaf's latest albums and listen to a selection of tracks.</p>
+            <!-- Music Section -->
+            <section id="music" style="padding: 50px 0; background-color: #ffeffffbee;">
+                <div class="container">
+                    <h2>MUSIC</h2>
+                    <p>Discover Selma & Gustaf's latest albums and listen to a selection of tracks.</p>
+                    <!-- Embed YouTube Video -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/IxmMJd8TI3k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
         </div>
     </section>
 
