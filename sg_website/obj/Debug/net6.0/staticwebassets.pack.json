@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\images\\lady.png",
+      "PackagePath": "staticwebassets\\images\\lady.png"
+    },
+    {
       "Id": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\images\\sgheader.jpg",
       "PackagePath": "staticwebassets\\images\\sgheader.jpg"
     },

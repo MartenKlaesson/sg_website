@@ -1,0 +1,7 @@
+C:\Users\mklae\Documents\sg\sg_website\obj\Release\net6.0\PubTmp\Out\sg_website.exe
+C:\Users\mklae\Documents\sg\sg_website\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\mklae\Documents\sg\sg_website\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\mklae\Documents\sg\sg_website\obj\Release\net6.0\PubTmp\Out\sg_website.dll
+C:\Users\mklae\Documents\sg\sg_website\obj\Release\net6.0\PubTmp\Out\sg_website.deps.json
+C:\Users\mklae\Documents\sg\sg_website\obj\Release\net6.0\PubTmp\Out\sg_website.runtimeconfig.json
+C:\Users\mklae\Documents\sg\sg_website\obj\Release\net6.0\PubTmp\Out\sg_website.pdb

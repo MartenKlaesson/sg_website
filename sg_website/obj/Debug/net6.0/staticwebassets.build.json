@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+UZR/o6h0JNgTaqOn6/+Clwe/Ar0mNmM9Zb8SpJaRRM=",
+  "Hash": "gO0UD2HcjzUCbKepHlSJVMfivsFJR0nLHVn+09Mc9Vs=",
   "Source": "sg_website",
   "BasePath": "_content/sg_website",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\images\\lady.png",
+      "SourceId": "sg_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\",
+      "BasePath": "_content/sg_website",
+      "RelativePath": "images/lady.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lady.png"
     },
     {
       "Identity": "C:\\Users\\mklae\\Documents\\sg\\sg_website\\wwwroot\\images\\sgheader.jpg",
